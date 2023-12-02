@@ -5,8 +5,8 @@
 # https://www.theodinproject.com/lessons/ruby-sub-strings
 
 def substrings(text, dictionary)
-  words_included = text.split(/\W+/).map do |word|
-    dictionary.select { |item| item if word.downcase.include?(item) }
+  words_included = text.downcase.split(/\W+/).map do |word|
+    dictionary.select { |item| item if word.include?(item) }
   end
 
   result = words_included.flatten.reduce(Hash.new(0)) do |acc, occurrence|
