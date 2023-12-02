@@ -1,3 +1,6 @@
+# Implement a caesar cipher that takes in a string and the shift factor and then outputs the modified string:
+# https://www.theodinproject.com/lessons/ruby-caesar-cipher
+
 ASCII_UPCASE_INTERVAL = [*(65..90)]
 ASCII_DOWNCASE_INTERVAL = [*(97..122)]
 ALPHABET_LENGTH = 26
