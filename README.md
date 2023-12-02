@@ -1,1 +1,1 @@
-# basic_ruby_projects
+# The Odin Project - Ruby Course
